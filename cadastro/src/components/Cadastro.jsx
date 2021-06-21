@@ -28,6 +28,8 @@ const Cadastro = () => {
             setEnviado('Preencha um Telefone ')
           }else if (!/^\d{5}-?\d{3}$/.test(cep)) {
             setEnviado('Preencha um cep')
+          }else  if(select.length === 0){setEnviado('Preencha um cep')
+              setEnviado('Preencha uma opção')
           }else if (check.length === 0){
               setEnviado('Selecione para confirmar')
           }else{

@@ -3,13 +3,11 @@ import './Checkbox.css'
 
 const Checkbox = ({ options, value, setValue }) => {
   
-  const [erro, setErro] = useState('')
     function handleChange({ target }) {
       if (target.checked) {
         setValue([...value, target.value]);
       } else {
         setValue(value.filter((itemValue) => itemValue !== target.value));
-        setErro('Selecione para confirma')
       }
     }
   
@@ -26,7 +24,6 @@ const Checkbox = ({ options, value, setValue }) => {
             {option}
           </label>
         ))}
-        {erro && <p> {erro}</p>}
       </>
     );
   };
