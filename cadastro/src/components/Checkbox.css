@@ -1,0 +1,14 @@
+.check{
+    background-color: rgb(204, 203, 203);
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.check input{
+    height: 15px;
+    width: 30%;
+}

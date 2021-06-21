@@ -1,0 +1,27 @@
+p{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+h3{
+    color: blue;
+    font-weight: bold;
+}
+main{
+    width: 70vw;
+    background-color:rgb(250, 250, 250);
+    color:black;
+    margin: 20px auto;
+    border-radius: 4px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
